@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
-import "./Search.css";
+import "../styles/Search.css";
 
-//vyhledávání města
 export default function Search({ searchCity }) {
   const [currentCity, setCurrentCity] = useState("");
 
@@ -20,17 +19,17 @@ export default function Search({ searchCity }) {
   }
 
   return (
-    <div className='Search'>
-      <label className='Search__label'>
+    <div className="Search">
+      <label className="Search__label">
         <input
-          className='Search__input'
+          className="Search__input"
           value={currentCity}
           onChange={handleInputChange}
           onKeyPress={handleKeyPress}
         />
       </label>
-      <button className='Search__button' onClick={handleButtonClick}>
-        Hledat
+      <button className="Search__button" onClick={handleButtonClick}>
+        Search
       </button>
     </div>
   );
