@@ -1,0 +1,11 @@
+.Warning {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .Warning > * {
+    padding: 0.15rem 0;
+  }
