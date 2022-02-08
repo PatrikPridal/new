@@ -1,6 +1,7 @@
 import React from "react";
 import "./ArtBy.css";
 
+// footer
 function ArtBy() {
   return (
     <footer className='Footer'>

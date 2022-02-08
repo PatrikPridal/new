@@ -1,8 +1,6 @@
 import React from "react";
-
 import "./Warning.css";
 
-//varování 
 function Warning() {
   return (
     <div className='Warning'>

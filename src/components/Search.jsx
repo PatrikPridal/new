@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 
-import "../styles/Search.css";
+import "./Search.css";
 
+
+// i add an update to my code
+//search input + button
 export default function Search({ searchCity }) {
   const [currentCity, setCurrentCity] = useState("");
 

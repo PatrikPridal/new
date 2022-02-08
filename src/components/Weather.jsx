@@ -1,8 +1,7 @@
 import React from "react";
-
 import "./Weather.css";
 
-// info o počasí na tento den + 5dní  
+//weather forecas for today + 5 days component
 export default function Current({ weatherInfo, location, date }) {
     return (
         <div className="Weather"> 

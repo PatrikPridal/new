@@ -4,7 +4,7 @@ import Weather from "./Weather";
 import Forecast from "./Forecast";
 import "./WeatherAndForecast.css";
 
-//komponent pro přepověď na 5 dní
+// 5 days forecast component
 function WeatherAndForecast({ weatherInfo, location }) {
   const date = dateCreator(new Date());
 
