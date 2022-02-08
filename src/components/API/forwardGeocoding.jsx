@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// geolokace uživatele
 async function getCoordinatesOfAddress(address) {
   const response = await axios.get(
     "https://api.opencagedata.com/geocode/v1/json? ",

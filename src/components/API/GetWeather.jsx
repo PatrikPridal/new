@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// openweathermap získání dat o počasí a předpovědi
 async function getWeatherAndForecast(coordinates) {
     const response = await axios.get(
         "https://api.openweathermap.org/data/2.5/onecall?",
